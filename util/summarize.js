@@ -4,13 +4,13 @@ async function main() {
     const fs = require('fs');
     const path = require('path');
 
-    const metadata = require('../metadata.json');
+    const metadata = require('../public/metadata.json');
     const regex = /Pallet: "([A_Za-z0-9_]*)", Extrinsic: "([A_Za-z0-9_]*)"/;
 
-    let dir = path.join(__dirname, '../data');
+    let dir = path.join(__dirname, '../public/data');
 
     let summarized_data = {}
-    let allBenchmarksStream = fs.createWriteStream('../all_benchmarks.csv');
+    let allBenchmarksStream = fs.createWriteStream('../public/all_benchmarks.csv');
     allBenchmarksStream.write("pallet,extrinsic" + "\n");
 
     fs.readdir(dir, function(err, filenames) {
@@ -67,7 +67,7 @@ async function main() {
             }
         });
         console.log(summarized_data)
-        fs.writeFileSync("../summary.json", JSON.stringify(summarized_data, null, '\t'));
+        fs.writeFileSync("../bin/summary.json", JSON.stringify(summarized_data, null, '\t'));
     });
 
 }

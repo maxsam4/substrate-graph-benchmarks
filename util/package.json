@@ -1,15 +1,12 @@
 {
-    "name": "substrate-graph-util",
+    "name": "polymesh-benchmark-graph-util",
     "version": "1.0.0",
-    "description": "Do Stuff",
+    "description": "Utilities for generating data for polymesh benchmark graphs",
     "scripts": {
-        "clean": "node clean.js",
-        "generate-script": "node generate_script.js",
+        "process": "node split-data.js && node summarize.js",
+        "split": "node split-data.js",
         "summarize": "node summarize.js"
     },
-    "author": "Shawn Tabrizi <shawntabrizi@gmail.com>",
-    "license": "MIT",
-    "dependencies": {
-        "d3": "^5.15.1"
-    }
+    "author": "Mudit Gupta <hi@mudit.blog>",
+    "license": "MIT"
 }
