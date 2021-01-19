@@ -1,3 +1,7 @@
+const baseTxCost = 700000; // Nanoseconds required to execute no op tx. This is set ~10% lower to account for added len fee.
+const readCost = 100000; // Nanoseconds required to read one storage slot
+const writeCost = 200000; // Nanoseconds required to write to one storage slot
+
 async function parseData(pallet, extrinsic, text) {
     // Benchmark data is in *.txt
     input = './data/' + pallet + "_" + extrinsic + ".txt";
@@ -99,7 +103,7 @@ function createAnalysisTable(data) {
 
 function createTable(data, components) {
     let keys = Object.keys(data[0]);
-
+    keys.push("cost_multiplier")
     let table = document.getElementById('raw-data');
 
     // Clear table
@@ -119,6 +123,7 @@ function createTable(data, components) {
     }
 
     for (row of data) {
+        row["cost_multiplier"] = 1 + (Number(row["extrinsic_time"]) + Number(row["reads"])*readCost + Number(row["writes"])*writeCost)/baseTxCost;
         let tr2 = document.createElement('tr');
         for (key of keys) {
             let td = document.createElement('td');
@@ -174,129 +179,126 @@ function createCharts(split_data, keys, metadata, components) {
 
     var counter = 0;
     for (key of keys) {
-        let time_names = ["extrinsic_time"] //, "storage_root_time"];
-        for (time_name of time_names) {
-            let data = split_data[key];
+        let data = split_data[key];
 
-            let x = data.map(row => {
-                return row[key];
-            });
+        let x = data.map(row => {
+            return row[key];
+        });
 
-            let time = data.map(row => {
-                return row[time_name] / 1000000;
-            });
+        let multiplier = data.map(row => {
+            return row["cost_multiplier"];
+        });
 
-            const someIsNotZero = time.some(item => item !== 0);
-            if (!someIsNotZero) {
-                continue;
-            }
-
-            var trace = {
-                x: x,
-                y: time,
-                mode: 'markers',
-                type: 'scatter',
-                name: 'Raw Values',
-                marker: { size: 6, color: 'grey' },
-                hoverinfo: 'skip'
-            };
-
-            var average = {
-                type: 'scatter',
-                x: x,
-                y: time,
-                transforms: [{
-                    type: 'aggregate',
-                    groups: x,
-                    aggregations: [{ target: 'y', func: 'avg', enabled: true }]
-                }],
-                name: 'Average',
-                line: { color: 'orange' }
-            };
-
-            var median = {
-                type: 'scatter',
-                x: x,
-                y: time,
-                transforms: [{
-                    type: 'aggregate',
-                    groups: x,
-                    aggregations: [{ target: 'y', func: 'median', enabled: true }]
-                }],
-                name: 'Median',
-                line: { color: 'yellow' }
-            };
-
-            var min = {
-                type: 'scatter',
-                mode: 'markers',
-                x: x,
-                y: time,
-                transforms: [{
-                    type: 'aggregate',
-                    groups: x,
-                    aggregations: [{ target: 'y', func: 'min', enabled: true }]
-                }],
-                name: 'Min',
-                marker: { size: 4, color: 'green' }
-            };
-
-            var max = {
-                type: 'scatter',
-                mode: 'markers',
-                x: x,
-                y: time,
-                transforms: [{
-                    type: 'aggregate',
-                    groups: x,
-                    aggregations: [{ target: 'y', func: 'max', enabled: true }]
-                }],
-                name: 'Max',
-                marker: { size: 4, color: 'red' }
-            };
-
-            let keyName = key + ' (' + components[key] + ')';
-
-            let fixed_data = keys
-                .filter(x => {
-                    return x != key;
-                })
-                .map(x => {
-                    return x + ': ' + data[0][x];
-                })
-                .join(', ');
-
-            if (fixed_data) {
-                fixed_data = ' (' + fixed_data + ')';
-            }
-
-            var layout = {
-                title: {
-                    text: time_name + ': ' + extrinsic + ' over ' + keyName + fixed_data
-                },
-                xaxis: {
-                    title: {
-                        text: keyName
-                    }
-                },
-                yaxis: {
-                    title: {
-                        text: 'Time (ms)'
-                    }
-                }
-            };
-
-            var chart = [trace, min, median, average, max];
-
-            let chartDiv = document.createElement('div');
-            chartDiv.id = 'myChart' + counter;
-            chartDiv.classList.add('my-4', 'w-100', 'chart');
-
-            document.getElementById('charts').appendChild(chartDiv);
-
-            Plotly.newPlot('myChart' + counter, chart, layout);
-            counter += 1;
+        const someIsNotZero = multiplier.some(item => item !== 0);
+        if (!someIsNotZero) {
+            continue;
         }
+
+        var trace = {
+            x: x,
+            y: multiplier,
+            mode: 'markers',
+            type: 'scatter',
+            name: 'Raw Values',
+            marker: { size: 6, color: 'grey' },
+            hoverinfo: 'skip'
+        };
+
+        var average = {
+            type: 'scatter',
+            x: x,
+            y: multiplier,
+            transforms: [{
+                type: 'aggregate',
+                groups: x,
+                aggregations: [{ target: 'y', func: 'avg', enabled: true }]
+            }],
+            name: 'Average',
+            line: { color: 'orange' }
+        };
+
+        var median = {
+            type: 'scatter',
+            x: x,
+            y: multiplier,
+            transforms: [{
+                type: 'aggregate',
+                groups: x,
+                aggregations: [{ target: 'y', func: 'median', enabled: true }]
+            }],
+            name: 'Median',
+            line: { color: 'yellow' }
+        };
+
+        var min = {
+            type: 'scatter',
+            mode: 'markers',
+            x: x,
+            y: multiplier,
+            transforms: [{
+                type: 'aggregate',
+                groups: x,
+                aggregations: [{ target: 'y', func: 'min', enabled: true }]
+            }],
+            name: 'Min',
+            marker: { size: 4, color: 'green' }
+        };
+
+        var max = {
+            type: 'scatter',
+            mode: 'markers',
+            x: x,
+            y: multiplier,
+            transforms: [{
+                type: 'aggregate',
+                groups: x,
+                aggregations: [{ target: 'y', func: 'max', enabled: true }]
+            }],
+            name: 'Max',
+            marker: { size: 4, color: 'red' }
+        };
+
+        let keyName = key + ' (' + components[key] + ')';
+
+        let fixed_data = keys
+            .filter(x => {
+                return x != key;
+            })
+            .map(x => {
+                return x + ': ' + data[0][x];
+            })
+            .join(', ');
+
+        if (fixed_data) {
+            fixed_data = ' (' + fixed_data + ')';
+        }
+
+        var layout = {
+            title: {
+                text:'Cost multiplier: ' + extrinsic + ' over ' + keyName + fixed_data
+            },
+            xaxis: {
+                title: {
+                    text: keyName
+                }
+            },
+            yaxis: {
+                title: {
+                    text: 'Multiplier'
+                }
+            }
+        };
+
+        var chart = [trace, min, median, average, max];
+
+        let chartDiv = document.createElement('div');
+        chartDiv.id = 'myChart' + counter;
+        chartDiv.classList.add('my-4', 'w-100', 'chart');
+
+        document.getElementById('charts').appendChild(chartDiv);
+
+        Plotly.newPlot('myChart' + counter, chart, layout);
+        counter += 1;
     }
 }
 
