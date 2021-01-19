@@ -1,0 +1,25 @@
+Pallet: "pallet_settlement", Extrinsic: "unclaim_receipt", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+63178,2382,12,9,3,2
+62369,2356,12,9,3,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    63.17
+              µs
+
+Reads = 12
+Writes = 3
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    63.17
+              µs
+
+Reads = 12
+Writes = 3

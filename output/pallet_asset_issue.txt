@@ -1,0 +1,25 @@
+Pallet: "pallet_asset", Extrinsic: "issue", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+103294,2262,18,16,5,2
+85975,2410,18,16,5,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    103.2
+              µs
+
+Reads = 18
+Writes = 5
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    103.2
+              µs
+
+Reads = 18
+Writes = 5

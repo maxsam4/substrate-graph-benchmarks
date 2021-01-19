@@ -1,0 +1,92 @@
+Jan 19 14:10:24.912  INFO Register Systematic id 'Treasury' with account 5EYCAe5ijAx5xEfZdpCna3grUpY1M9M5vLUH5vpmwV1EnaYR as did:poly:73797374656d3a74726561737572795f6d6f64756c655f646964000000000000    
+Jan 19 14:10:24.912  INFO Register Systematic id 'Governance Committee' with account 5EYCAe5ijAx4CEmdWxW3z3zje4Cn5wktrWArcmN8G4WY6tzD as did:poly:73797374656d3a676f7665726e616e63655f636f6d6d69747465650000000000    
+Jan 19 14:10:24.912  INFO Register Systematic id 'CDD Trusted Providers' with account 5EYCAe5ijAx3f4mDkrmqQ3yoPHJNGZ4esoDDdWD7w444oUGn as did:poly:73797374656d3a637573746f6d65725f6475655f64696c6967656e6365000000    
+Jan 19 14:10:24.912  INFO Register Systematic id 'Block Reward Reserve' with account 5EYCAe5ijAx3Wx7TC43Y8JFJsKrqboxKebUpthpSXAjsL7rM as did:poly:73797374656d3a626c6f636b5f7265776172645f726573657276655f64696400    
+Jan 19 14:10:24.912  INFO Register Systematic id 'Settlement module' with account 5EYCAe5ijAx5ozvXT91ssnjg6RQ7yqNzdB1qWf5z3zpzTSER as did:poly:73797374656d3a736574746c656d656e745f6d6f64756c655f64696400000000    
+Jan 19 14:10:24.912  INFO Register Systematic id 'Polymath Classic Imports and Reservations' with account 5EYCAe5ijAx3vLxKrnWyisCi5bPMedYRamc7AXViLPF1pr6M as did:poly:73797374656d3a706f6c796d6174685f636c61737369635f6d69670000000000    
+Jan 19 14:10:24.912  INFO Register Systematic id 'Fiat Ticker Reservation' with account 5EYCAe5ijAx44Yxkj6fVg4KmAELZ3nirYLgxTUngJ3MbcZd8 as did:poly:73797374656d3a666961745f7469636b6572735f7265736572766174696f6e00    
+Jan 19 14:10:24.913  INFO Add Systematic CDD Claims to 'Treasury'    
+Jan 19 14:10:24.913  INFO Add Systematic CDD Claims to 'Block Reward Reserve'    
+Jan 19 14:10:24.913  INFO Add Systematic CDD Claims to 'Settlement module'    
+Jan 19 14:10:24.915  INFO Created bridge multisig 5EVzrvCwYnwmvouexDZX58unfeFkCDXxgYs5yTeZNPT4yha3    
+Jan 19 14:10:24.915  INFO Accepting bridge signer auth for Account(1840baf2bf9afbab6e227259fd66477f7fb72b5c82c9af729d90633dd6243803 (5CcWEboJ...))    
+Jan 19 14:10:24.915  INFO Accepting bridge signer auth for Account(04de094d4891648e0ba44e898e17d597c5003ebd97d3abbad839ff2a5bc6ab73 (5CB61Nhk...))    
+Jan 19 14:10:24.915  INFO Accepting bridge signer auth for Account(b8c52dc5e45bc89f8ed45ce9f24bc883ea4e81615acc9d61cdc3a6a32dec8541 (5GEyF1JK...))    
+Jan 19 14:10:24.915  INFO Accepting bridge signer auth for Account(6c1476f67a282b1010b29f22bcfc01458ce559aba0916f09f1fe6c500642814f (5EWR7DYX...))    
+Jan 19 14:10:24.916  INFO Accepting bridge signer auth for Account(d28fdcf7a7b4b8fd6a93fc7e8eb331a6a3dbb79f2b64b20bb3f19e133d749022 (5GpnecGZ...))    
+Jan 19 14:10:24.916  INFO Joined identity did:poly:0600000000000000000000000000000000000000000000000000000000000000 as signer 5EVzrvCwYnwmvouexDZX58unfeFkCDXxgYs5yTeZNPT4yha3    
+Jan 19 14:19:08.018  INFO Heartbeat::heartbeat bench: keys=1, external_addresses=100    
+Jan 19 14:19:08.021  INFO Heartbeat::heartbeat bench: keys=1, external_addresses=100    
+Jan 19 14:19:08.025  INFO Heartbeat::heartbeat bench: keys=1, external_addresses=100    
+Jan 19 14:19:08.169  INFO Heartbeat::heartbeat bench: keys=100, external_addresses=100    
+Jan 19 14:19:08.310  INFO Heartbeat::heartbeat bench: keys=100, external_addresses=100    
+Jan 19 14:19:08.452  INFO Heartbeat::heartbeat bench: keys=100, external_addresses=100    
+Jan 19 14:19:08.729  INFO Heartbeat::heartbeat bench: keys=199, external_addresses=100    
+Jan 19 14:19:09.007  INFO Heartbeat::heartbeat bench: keys=199, external_addresses=100    
+Jan 19 14:19:09.288  INFO Heartbeat::heartbeat bench: keys=199, external_addresses=100    
+Jan 19 14:19:09.706  INFO Heartbeat::heartbeat bench: keys=298, external_addresses=100    
+Jan 19 14:19:10.125  INFO Heartbeat::heartbeat bench: keys=298, external_addresses=100    
+Jan 19 14:19:10.541  INFO Heartbeat::heartbeat bench: keys=298, external_addresses=100    
+Jan 19 14:19:11.096  INFO Heartbeat::heartbeat bench: keys=397, external_addresses=100    
+Jan 19 14:19:11.653  INFO Heartbeat::heartbeat bench: keys=397, external_addresses=100    
+Jan 19 14:19:12.206  INFO Heartbeat::heartbeat bench: keys=397, external_addresses=100    
+Jan 19 14:19:12.903  INFO Heartbeat::heartbeat bench: keys=496, external_addresses=100    
+Jan 19 14:19:13.595  INFO Heartbeat::heartbeat bench: keys=496, external_addresses=100    
+Jan 19 14:19:14.290  INFO Heartbeat::heartbeat bench: keys=496, external_addresses=100    
+Jan 19 14:19:15.118  INFO Heartbeat::heartbeat bench: keys=595, external_addresses=100    
+Jan 19 14:19:15.953  INFO Heartbeat::heartbeat bench: keys=595, external_addresses=100    
+Jan 19 14:19:16.784  INFO Heartbeat::heartbeat bench: keys=595, external_addresses=100    
+Jan 19 14:19:17.760  INFO Heartbeat::heartbeat bench: keys=694, external_addresses=100    
+Jan 19 14:19:18.729  INFO Heartbeat::heartbeat bench: keys=694, external_addresses=100    
+Jan 19 14:19:19.697  INFO Heartbeat::heartbeat bench: keys=694, external_addresses=100    
+Jan 19 14:19:20.805  INFO Heartbeat::heartbeat bench: keys=793, external_addresses=100    
+Jan 19 14:19:21.923  INFO Heartbeat::heartbeat bench: keys=793, external_addresses=100    
+Jan 19 14:19:23.032  INFO Heartbeat::heartbeat bench: keys=793, external_addresses=100    
+Jan 19 14:19:24.280  INFO Heartbeat::heartbeat bench: keys=892, external_addresses=100    
+Jan 19 14:19:25.529  INFO Heartbeat::heartbeat bench: keys=892, external_addresses=100    
+Jan 19 14:19:26.782  INFO Heartbeat::heartbeat bench: keys=892, external_addresses=100    
+Jan 19 14:19:28.170  INFO Heartbeat::heartbeat bench: keys=991, external_addresses=100    
+Jan 19 14:19:29.552  INFO Heartbeat::heartbeat bench: keys=991, external_addresses=100    
+Jan 19 14:19:30.934  INFO Heartbeat::heartbeat bench: keys=991, external_addresses=100    
+Jan 19 14:19:32.446  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=1    
+Jan 19 14:19:33.940  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=1    
+Jan 19 14:19:35.437  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=1    
+Jan 19 14:19:36.880  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=10    
+Jan 19 14:19:38.276  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=10    
+Jan 19 14:19:39.667  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=10    
+Jan 19 14:19:41.060  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=19    
+Jan 19 14:19:42.471  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=19    
+Jan 19 14:19:43.871  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=19    
+Jan 19 14:19:45.269  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=28    
+Jan 19 14:19:46.697  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=28    
+Jan 19 14:19:48.101  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=28    
+Jan 19 14:19:49.504  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=37    
+Jan 19 14:19:50.902  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=37    
+Jan 19 14:19:52.317  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=37    
+Jan 19 14:19:53.712  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=46    
+Jan 19 14:19:55.106  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=46    
+Jan 19 14:19:56.507  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=46    
+Jan 19 14:19:57.917  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=55    
+Jan 19 14:19:59.315  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=55    
+Jan 19 14:20:00.709  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=55    
+Jan 19 14:20:02.117  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=64    
+Jan 19 14:20:03.516  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=64    
+Jan 19 14:20:04.911  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=64    
+Jan 19 14:20:06.309  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=73    
+Jan 19 14:20:07.721  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=73    
+Jan 19 14:20:09.114  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=73    
+Jan 19 14:20:10.509  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=82    
+Jan 19 14:20:11.909  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=82    
+Jan 19 14:20:13.309  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=82    
+Jan 19 14:20:14.708  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=91    
+Jan 19 14:20:16.109  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=91    
+Jan 19 14:20:17.538  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=91    
+Jan 19 14:20:18.980  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=100    
+Jan 19 14:20:20.475  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=100    
+Jan 19 14:20:21.973  INFO Heartbeat::heartbeat bench: keys=1000, external_addresses=100    
+Jan 19 14:20:34.324  INFO 💸 new validator set of size 1 has been elected via ElectionCompute::OnChain for era 1    
+Jan 19 14:20:34.332  INFO 💸 new validator set of size 1 has been elected via ElectionCompute::OnChain for era 1    
+Jan 19 14:20:34.346  INFO 💸 new validator set of size 1 has been elected via ElectionCompute::OnChain for era 1    
+Jan 19 14:20:34.354  INFO 💸 new validator set of size 1 has been elected via ElectionCompute::OnChain for era 1    
+Jan 19 14:20:34.363  INFO 💸 new validator set of size 1 has been elected via ElectionCompute::OnChain for era 1    
+Jan 19 14:20:34.371  INFO 💸 new validator set of size 1 has been elected via ElectionCompute::OnChain for era 1    

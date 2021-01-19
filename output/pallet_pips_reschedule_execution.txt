@@ -1,0 +1,25 @@
+Pallet: "pallet_pips", Extrinsic: "reschedule_execution", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+71085,2267,11,15,6,2
+70414,2364,11,15,6,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    71.08
+              µs
+
+Reads = 11
+Writes = 6
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    71.08
+              µs
+
+Reads = 11
+Writes = 6

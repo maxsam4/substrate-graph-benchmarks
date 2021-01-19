@@ -1,0 +1,25 @@
+Pallet: "pallet_pips", Extrinsic: "prune_proposal", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+39410,2240,2,7,5,2
+39120,2237,2,7,5,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    39.41
+              µs
+
+Reads = 2
+Writes = 5
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    39.41
+              µs
+
+Reads = 2
+Writes = 5

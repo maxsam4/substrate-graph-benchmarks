@@ -83,5 +83,13 @@
     },
     "timestamp": {
         "t": "timestamp value"
+    },
+    "pallet_asset": {
+        "n": "Asset name length",
+        "i": "# of Asset identifiers",
+        "f": "Funding round name length "
+    },
+    "pallet_identity": {
+        "i": "# of Secondary keys"
     }
 }

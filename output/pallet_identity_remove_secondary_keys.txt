@@ -1,0 +1,41 @@
+Pallet: "pallet_identity", Extrinsic: "remove_secondary_keys", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+i,extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+0,36318,2015,6,11,1,2
+0,35704,1971,6,11,1,2
+1,51599,2244,9,11,1,2
+1,51228,2172,9,11,1,2
+2,61062,2204,12,11,1,2
+2,60211,2147,12,11,1,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    36.31
+    + i    12.37
+              µs
+
+Reads = 6 + (3 * i)
+Writes = 1 + (0 * i)
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Data points distribution:
+    i   mean µs  sigma µs       %
+    0     36.01     0.307    0.8%
+    1     51.41     0.185    0.3%
+    2     60.63     0.425    0.7%
+
+Quality and confidence:
+param     error
+i         0.913
+
+Model:
+Time ~=    37.04
+    + i    12.31
+              µs
+
+Reads = 6 + (3 * i)
+Writes = 1 + (0 * i)

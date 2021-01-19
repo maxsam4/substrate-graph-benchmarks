@@ -1,0 +1,25 @@
+Pallet: "frame_system", Extrinsic: "suicide", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+17734,2175,0,7,0,3
+17743,1963,0,7,0,3
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    17.74
+              µs
+
+Reads = 0
+Writes = 0
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    17.74
+              µs
+
+Reads = 0
+Writes = 0

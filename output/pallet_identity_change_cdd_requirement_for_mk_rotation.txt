@@ -1,0 +1,25 @@
+Pallet: "pallet_identity", Extrinsic: "change_cdd_requirement_for_mk_rotation", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+11288,1867,0,4,1,2
+11217,1687,0,4,1,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    11.28
+              µs
+
+Reads = 0
+Writes = 1
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    11.28
+              µs
+
+Reads = 0
+Writes = 1
