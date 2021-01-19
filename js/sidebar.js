@@ -14,8 +14,6 @@ async function createSidebar() {
         current_extrinsic = queryStrings['e'];
     }
 
-    let db_page = window.location.pathname.includes('db-stats.html')
-
     let benchmarks = await d3.csv("./all_benchmarks.csv");
 
     // Organize Benchmarks by Pallet and Extrinsic
@@ -54,28 +52,13 @@ async function createSidebar() {
 
             let a = document.createElement('a');
             a.classList.add('nav-link');
-            if (pallet == current_pallet && extrinsic == current_extrinsic && !db_page) {
+            if (pallet == current_pallet && extrinsic == current_extrinsic) {
                 a.classList.add('active');
             }
             a.href = './?p=' + pallet + '&e=' + extrinsic;
             a.innerText = extrinsic;
-            a.onclick = function() {
-                parseData(pallet, extrinsic);
-            };
-
-            let a2 = document.createElement('a');
-            if (pallet == current_pallet && extrinsic == current_extrinsic && db_page) {
-                a2.classList.add('active');
-            }
-            a2.href = './db-stats.html?p=' + pallet + '&e=' + extrinsic;
-            a2.innerText = "(db stats)";
-            a2.classList.add("badge", "badge-secondary", "ml-2");
-            a2.onclick = function() {
-                parseData(pallet, extrinsic);
-            };
 
             span.appendChild(a);
-            span.appendChild(a2);
             li.appendChild(span);
             ul.appendChild(li);
         }
