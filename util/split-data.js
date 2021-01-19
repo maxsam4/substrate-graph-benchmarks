@@ -12,7 +12,7 @@ async function main() {
     let outputStream;
     for await (const line of rl) {
         if ((match = regex.exec(line)) !== null) {
-            outputStream = fs.createWriteStream(`../output/${match[1]}_${match[2]}.txt`);
+            outputStream = fs.createWriteStream(`../data/${match[1]}_${match[2]}.txt`);
         }
         outputStream.write(line + "\n");
     }

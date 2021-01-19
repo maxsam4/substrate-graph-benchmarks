@@ -1,28 +1,35 @@
 // Main function which needs to run at start
 async function main() {
-    var args = process.argv;
 
     const fs = require('fs');
     const path = require('path');
 
-    const metadata = require('../metadata.json')
+    const metadata = require('../metadata.json');
+    const regex = /Pallet: "([A_Za-z0-9_]*)", Extrinsic: "([A_Za-z0-9_]*)"/;
 
-    // This gets the filename from commandline
-    let dirname = path.join(__dirname, args[2]);
+    let dir = path.join(__dirname, '../data');
 
     let summarized_data = {}
+    let allBenchmarksStream = fs.createWriteStream('../all_benchmarks.csv');
+    allBenchmarksStream.write("pallet,extrinsic" + "\n");
 
-    fs.readdir(dirname, function(err, filenames) {
+    fs.readdir(dir, function(err, filenames) {
         if (err) throw err;
 
         filenames.forEach(function(filename) {
-            let in_filepath = path.join(__dirname, args[2], filename);
+            let in_filepath = path.join(dir, filename);
             filename = filename.slice(0, -4);
             if (in_filepath.substr(-3) == 'txt') {
                 let text = fs.readFileSync(in_filepath, "utf8");
                 let text_split = text.split('\n\n');
+                // Not enough data to visualize
+                if (text_split.length < 7) return;
                 // Benchmark data is currently the first continuous block of text
                 let benchmark_data = text_split.shift();
+                // Push details to all benchmarks csv
+                if ((match = regex.exec(benchmark_data)) !== null) {
+                    allBenchmarksStream.write(`${match[1]},${match[2]}\n`);
+                }
                 // The rest is analysis data
                 let analysis_data = text_split;
                 // Mean squares analysis is 5, this creates an array of the data

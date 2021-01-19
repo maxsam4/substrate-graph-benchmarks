@@ -29,27 +29,6 @@ async function createSidebar() {
 
     let sidebar = document.getElementById('sidebar');
 
-    // Create Buttons to go to other pages
-    let extra_pages = [
-        {
-            "name": "Documentation >",
-            "url": "./docs/",
-            "class": "btn-primary"
-        },
-        {
-            "name": "Old Data >",
-            "url": "./old/",
-            "class": "btn-secondary"
-        }
-    ];
-    for (page of extra_pages) {
-        let button = document.createElement('a');
-        button.classList.add('btn', 'btn-sm', 'rounded-0', page.class);
-        button.href = page.url;
-        button.innerText = page.name;
-        sidebar.appendChild(button);
-    }
-
     for ([pallet, extrinsics] of Object.entries(benchmarksOrganized)) {
         let h6 = document.createElement('h6');
         h6.classList.add(
