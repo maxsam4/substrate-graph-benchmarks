@@ -10,9 +10,12 @@ async function main() {
     });
 
     let outputStream;
+    let allBenchmarksStream = fs.createWriteStream('../public/all_benchmarks.csv');
+    allBenchmarksStream.write("pallet,extrinsic" + "\n");
     for await (const line of rl) {
         if ((match = regex.exec(line)) !== null) {
             outputStream = fs.createWriteStream(`../public/data/${match[1]}_${match[2]}.txt`);
+            allBenchmarksStream.write(`${match[1]},${match[2]}\n`);
         }
         outputStream.write(line + "\n");
     }

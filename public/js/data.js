@@ -1,6 +1,7 @@
 const baseTxCost = 700000; // Nanoseconds required to execute no op tx. This is set ~10% lower to account for added len fee.
 const readCost = 100000; // Nanoseconds required to read one storage slot
 const writeCost = 200000; // Nanoseconds required to write to one storage slot
+const basePolyCost = 0.03;
 
 async function parseData(pallet, extrinsic, text) {
     // Benchmark data is in *.txt
@@ -103,7 +104,8 @@ function createAnalysisTable(data) {
 
 function createTable(data, components) {
     let keys = Object.keys(data[0]);
-    keys.push("cost_multiplier")
+    keys.push("cost_multiplier");
+    keys.push("polyx_cost");
     let table = document.getElementById('raw-data');
 
     // Clear table
@@ -124,6 +126,7 @@ function createTable(data, components) {
 
     for (row of data) {
         row["cost_multiplier"] = 1 + (Number(row["extrinsic_time"]) + Number(row["reads"])*readCost + Number(row["writes"])*writeCost)/baseTxCost;
+        row["polyx_cost"] = Number(row["cost_multiplier"]) * basePolyCost;
         let tr2 = document.createElement('tr');
         for (key of keys) {
             let td = document.createElement('td');
@@ -269,13 +272,9 @@ function createCharts(split_data, keys, metadata, components) {
             })
             .join(', ');
 
-        if (fixed_data) {
-            fixed_data = ' (' + fixed_data + ')';
-        }
-
         var layout = {
             title: {
-                text:'Cost multiplier: ' + extrinsic + ' over ' + keyName + fixed_data
+                text:'Cost multiplier: ' + extrinsic + ' over ' + keyName + '<br>' + fixed_data
             },
             xaxis: {
                 title: {

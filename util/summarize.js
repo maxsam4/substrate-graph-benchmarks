@@ -5,13 +5,10 @@ async function main() {
     const path = require('path');
 
     const metadata = require('../public/metadata.json');
-    const regex = /Pallet: "([A_Za-z0-9_]*)", Extrinsic: "([A_Za-z0-9_]*)"/;
 
     let dir = path.join(__dirname, '../public/data');
 
     let summarized_data = {}
-    let allBenchmarksStream = fs.createWriteStream('../public/all_benchmarks.csv');
-    allBenchmarksStream.write("pallet,extrinsic" + "\n");
 
     fs.readdir(dir, function(err, filenames) {
         if (err) throw err;
@@ -26,10 +23,6 @@ async function main() {
                 if (text_split.length < 7) return;
                 // Benchmark data is currently the first continuous block of text
                 let benchmark_data = text_split.shift();
-                // Push details to all benchmarks csv
-                if ((match = regex.exec(benchmark_data)) !== null) {
-                    allBenchmarksStream.write(`${match[1]},${match[2]}\n`);
-                }
                 // The rest is analysis data
                 let analysis_data = text_split;
                 // Mean squares analysis is 5, this creates an array of the data
