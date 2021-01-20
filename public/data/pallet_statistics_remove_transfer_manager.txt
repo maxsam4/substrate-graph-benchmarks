@@ -1,14 +1,17 @@
-Pallet: "pallet_statistics", Extrinsic: "remove_transfer_manager", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_statistics", Extrinsic: "remove_transfer_manager", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-46864,2203,8,8,1,2
-47256,2136,8,8,1,2
+43243,2166,8,8,1,2
+42844,2127,8,8,1,2
+42921,2131,8,8,1,2
+42725,2009,8,8,1,2
+42415,2051,8,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    47.25
+Time ~=    42.84
               µs
 
 Reads = 8
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    47.25
+Time ~=    42.84
               µs
 
 Reads = 8

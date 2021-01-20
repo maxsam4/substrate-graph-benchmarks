@@ -1,6 +1,6 @@
-const baseTxCost = 700000; // Nanoseconds required to execute no op tx. This is set ~10% lower to account for added len fee.
-const readCost = 100000; // Nanoseconds required to read one storage slot
-const writeCost = 200000; // Nanoseconds required to write to one storage slot
+const baseTxCost = 380000; // Nanoseconds required to execute no op tx. This is set ~10% lower to account for added len fee.
+const readCost = 50000; // Nanoseconds required to read one storage slot
+const writeCost = 100000; // Nanoseconds required to write to one storage slot
 const basePolyCost = 0.03;
 
 async function parseData(pallet, extrinsic, text) {

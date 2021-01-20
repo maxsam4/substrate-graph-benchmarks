@@ -1,14 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "revoke_claim", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_identity", Extrinsic: "revoke_claim", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-45146,2271,8,9,1,2
-44742,2285,8,9,1,2
+42369,2046,8,9,1,2
+42382,2024,8,9,1,2
+42611,2007,8,9,1,2
+42420,1980,8,9,1,2
+42798,1967,8,9,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    45.14
+Time ~=    42.42
               µs
 
 Reads = 8
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    45.14
+Time ~=    42.42
               µs
 
 Reads = 8

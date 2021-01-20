@@ -85,11 +85,54 @@
         "t": "timestamp value"
     },
     "pallet_asset": {
-        "n": "Asset name length",
-        "i": "# of Asset identifiers",
-        "f": "Funding round name length "
+        "n": "Length of asset name",
+        "i": "Number of asset identifiers",
+        "f": "Length of funding round name",
+        "d": "Number of documents"
     },
     "pallet_identity": {
-        "i": "# of Secondary keys"
+        "i": "Number of secondary keys"
+    },
+    "pallet_compliance_manager": {
+        "s": "Number of sender conditions",
+        "r": "Number of receiver conditions",
+        "c": "Number of compliance requirements"
+    },
+    "polymesh_contracts": {
+        "l": "Size of smart contract",
+        "u": "Length of URL",
+        "d": "Length of Description"
+    },
+    "pallet_corporate_actions": {
+        "w": "Number of withheld Identities",
+        "t": "Number of target Identities",
+        "d": "Number of documents",
+        "c": "Number of choices in the ballot"
+    },
+    "pallet_group": {
+        "m": "Number of members"
+    },
+    "pallet_multisig": {
+        "i": "Number of signers"
+    },
+    "pallet_portfolio": {
+        "i": "Length of portfolio name",
+        "a": "Number of assets being moved"
+    },
+    "pallet_settlement": {
+        "d": "Length of venue details",
+        "s": "Number of signers",
+        "l": "Number of legs",
+        "r": "Number of receipts",
+        "v": "Number of venues"
+    },
+    "pallet_statistics": {
+        "i": "Number of exempted identities",
+        "t": "Number of transfer managers"
+    },
+    "pallet_sto": {
+        "i": "Number of tiers",
+        "c": "Compliance manager complexity",
+        "s": "Number of transfer managers"
     }
 }

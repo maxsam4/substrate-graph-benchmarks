@@ -1,14 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "invalidate_cdd_claims", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_identity", Extrinsic: "invalidate_cdd_claims", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-43096,2235,5,16,3,2
-42927,2162,5,16,3,2
+40097,2087,5,16,3,2
+44086,2017,5,16,3,2
+39975,1927,5,16,3,2
+40518,2058,5,16,3,2
+39884,1951,5,16,3,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    43.09
+Time ~=    40.09
               µs
 
 Reads = 5
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    43.09
+Time ~=    40.09
               µs
 
 Reads = 5

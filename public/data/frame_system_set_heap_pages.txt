@@ -1,14 +1,17 @@
-Pallet: "frame_system", Extrinsic: "set_heap_pages", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "frame_system", Extrinsic: "set_heap_pages", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-1153,1607,0,0,1,0
-1003,1610,0,0,1,0
+904,1585,0,0,1,0
+753,1389,0,0,1,0
+780,1318,0,0,1,0
+782,1307,0,0,1,0
+696,1312,0,0,1,0
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    1.153
+Time ~=     0.78
               µs
 
 Reads = 0
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    1.153
+Time ~=     0.78
               µs
 
 Reads = 0

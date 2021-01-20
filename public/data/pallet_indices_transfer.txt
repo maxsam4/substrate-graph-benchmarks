@@ -1,14 +1,17 @@
-Pallet: "pallet_indices", Extrinsic: "transfer", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_indices", Extrinsic: "transfer", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-27369,2100,2,7,2,3
-27480,2027,2,7,2,3
+24999,1939,2,7,2,3
+24757,1752,2,7,2,3
+25176,1788,2,7,2,3
+25177,1734,2,7,2,3
+25019,1731,2,7,2,3
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    27.48
+Time ~=    25.01
               µs
 
 Reads = 2
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    27.48
+Time ~=    25.01
               µs
 
 Reads = 2

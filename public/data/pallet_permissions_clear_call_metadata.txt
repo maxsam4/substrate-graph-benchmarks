@@ -1,14 +1,17 @@
-Pallet: "pallet_permissions", Extrinsic: "clear_call_metadata", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_permissions", Extrinsic: "clear_call_metadata", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-1500,1795,0,0,2,0
-1367,1758,0,0,2,0
+1510,1554,0,0,2,0
+1379,1474,0,0,2,0
+1256,1470,0,0,2,0
+1224,1425,0,0,2,0
+1229,1402,0,0,2,0
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=      1.5
+Time ~=    1.256
               µs
 
 Reads = 0
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=      1.5
+Time ~=    1.256
               µs
 
 Reads = 0

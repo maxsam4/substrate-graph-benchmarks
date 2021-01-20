@@ -1,14 +1,17 @@
-Pallet: "pallet_indices", Extrinsic: "freeze", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_indices", Extrinsic: "freeze", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-24230,1977,1,6,1,4
-24006,1908,1,6,1,4
+21332,1849,1,6,1,4
+21319,1787,1,6,1,4
+21061,1725,1,6,1,4
+21036,1759,1,6,1,4
+21319,1693,1,6,1,4
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    24.23
+Time ~=    21.31
               µs
 
 Reads = 1
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    24.23
+Time ~=    21.31
               µs
 
 Reads = 1

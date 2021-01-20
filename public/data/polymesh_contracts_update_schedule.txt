@@ -1,14 +1,17 @@
-Pallet: "polymesh_contracts", Extrinsic: "update_schedule", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "polymesh_contracts", Extrinsic: "update_schedule", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-15334,2140,1,4,1,2
-14968,1986,1,4,1,2
+13475,2012,1,4,1,2
+13396,1701,1,4,1,2
+12912,1674,1,4,1,2
+12971,1719,1,4,1,2
+13308,1558,1,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    15.33
+Time ~=     13.3
               µs
 
 Reads = 1
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    15.33
+Time ~=     13.3
               µs
 
 Reads = 1

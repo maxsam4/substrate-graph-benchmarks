@@ -1,14 +1,17 @@
-Pallet: "pallet_compliance_manager", Extrinsic: "resume_asset_compliance", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_compliance_manager", Extrinsic: "resume_asset_compliance", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-51756,3118,8,8,1,2
-48927,2218,8,8,1,2
+46169,2042,8,8,1,2
+46132,2063,8,8,1,2
+46449,2174,8,8,1,2
+46140,2068,8,8,1,2
+46233,2018,8,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    51.75
+Time ~=    46.16
               µs
 
 Reads = 8
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    51.75
+Time ~=    46.16
               µs
 
 Reads = 8

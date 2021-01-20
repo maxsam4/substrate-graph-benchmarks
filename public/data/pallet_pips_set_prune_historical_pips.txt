@@ -1,14 +1,17 @@
-Pallet: "pallet_pips", Extrinsic: "set_prune_historical_pips", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_pips", Extrinsic: "set_prune_historical_pips", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-14185,1900,1,4,1,2
-14033,1779,1,4,1,2
+12487,1711,1,4,1,2
+12987,1650,1,4,1,2
+12120,1473,1,4,1,2
+11884,1506,1,4,1,2
+12082,1458,1,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    14.18
+Time ~=    12.12
               µs
 
 Reads = 1
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    14.18
+Time ~=    12.12
               µs
 
 Reads = 1

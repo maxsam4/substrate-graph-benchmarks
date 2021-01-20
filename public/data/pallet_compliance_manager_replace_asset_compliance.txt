@@ -1,17 +1,23 @@
-Pallet: "pallet_compliance_manager", Extrinsic: "replace_asset_compliance", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_compliance_manager", Extrinsic: "replace_asset_compliance", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 c,extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-0,58667,2275,9,8,1,2
-0,59131,2233,9,8,1,2
-1,65281,2242,9,8,1,2
-1,64554,2259,9,8,1,2
+0,54344,1944,9,8,1,2
+0,54321,2114,9,8,1,2
+0,55076,2016,9,8,1,2
+0,54927,1980,9,8,1,2
+0,54215,2046,9,8,1,2
+1,59724,2151,9,8,1,2
+1,60396,2117,9,8,1,2
+1,60467,2088,9,8,1,2
+1,60132,2075,9,8,1,2
+1,60054,2178,9,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    59.13
-    + c     6.15
+Time ~=    54.59
+    + c     5.54
               µs
 
 Reads = 9 + (0 * c)
@@ -22,16 +28,16 @@ Min Squares Analysis
 
 Data points distribution:
     c   mean µs  sigma µs       %
-    0     58.89     0.232    0.3%
-    1     64.91     0.363    0.5%
+    0     54.53      0.28    0.5%
+    1     60.19     0.146    0.2%
 
 Quality and confidence:
 param     error
-c         0.431
+c         0.223
 
 Model:
-Time ~=    58.89
-    + c    6.018
+Time ~=    54.53
+    + c    5.663
               µs
 
 Reads = 9 + (0 * c)

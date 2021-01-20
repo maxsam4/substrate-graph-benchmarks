@@ -1,14 +1,17 @@
-Pallet: "pallet_multisig", Extrinsic: "reject_as_identity", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_multisig", Extrinsic: "reject_as_identity", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-50000,2383,8,8,2,2
-50083,2314,8,8,2,2
+46269,2160,8,8,2,2
+46858,2100,8,8,2,2
+46362,2093,8,8,2,2
+46130,2098,8,8,2,2
+46059,2096,8,8,2,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    50.08
+Time ~=    46.26
               µs
 
 Reads = 8
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    50.08
+Time ~=    46.26
               µs
 
 Reads = 8

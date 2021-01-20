@@ -1,25 +1,28 @@
-Pallet: "pallet_pips", Extrinsic: "expire_scheduled_pip", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_pips", Extrinsic: "expire_scheduled_pip", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-516971,2690,66,49,63,2
-523311,3130,66,49,63,2
+12081808,7380,1206,809,1203,2
+11965686,6802,1206,809,1203,2
+12110586,6901,1206,809,1203,2
+12393478,7063,1206,809,1203,2
+12109773,7219,1206,809,1203,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    523.3
+Time ~=    12100
               µs
 
-Reads = 66
-Writes = 63
+Reads = 1206
+Writes = 1203
 Min Squares Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    523.3
+Time ~=    12100
               µs
 
-Reads = 66
-Writes = 63
+Reads = 1206
+Writes = 1203

@@ -1,14 +1,17 @@
-Pallet: "pallet_group", Extrinsic: "disable_member", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_group", Extrinsic: "disable_member", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-231998,3855,5,11,3,2
-229066,3740,5,11,3,2
+219557,3740,5,11,3,2
+220473,3549,5,11,3,2
+221235,3653,5,11,3,2
+218236,3567,5,11,3,2
+219980,3398,5,11,3,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    231.9
+Time ~=    219.9
               µs
 
 Reads = 5
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    231.9
+Time ~=    219.9
               µs
 
 Reads = 5

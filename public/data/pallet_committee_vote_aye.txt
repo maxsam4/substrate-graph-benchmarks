@@ -1,14 +1,17 @@
-Pallet: "pallet_committee", Extrinsic: "vote_aye", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_committee", Extrinsic: "vote_aye", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-611994,4053,10,15,3,2
-951100,4065,10,15,3,2
+599127,3734,10,15,3,2
+605087,3694,10,15,3,2
+602648,3361,10,15,3,2
+601175,3628,10,15,3,2
+606239,3556,10,15,3,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    951.1
+Time ~=    602.6
               µs
 
 Reads = 10
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    951.1
+Time ~=    602.6
               µs
 
 Reads = 10

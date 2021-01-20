@@ -1,14 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "mock_cdd_register_did", Lowest values: [], Highest values: [], Steps: [10], Repeat: 2
+Pallet: "pallet_identity", Extrinsic: "mock_cdd_register_did", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-191406,2272,17,15,4,2
-192399,2312,17,15,4,2
+180491,2181,17,15,4,2
+181305,2064,17,15,4,2
+179667,1994,17,15,4,2
+180027,2033,17,15,4,2
+179970,2033,17,15,4,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    192.3
+Time ~=      180
               µs
 
 Reads = 17
@@ -18,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    192.3
+Time ~=      180
               µs
 
 Reads = 17
