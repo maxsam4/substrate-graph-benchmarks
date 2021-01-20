@@ -1,0 +1,28 @@
+name: Deployment
+on:
+  push:
+    branches:
+      - polymesh
+
+jobs:
+  cloudflare:
+    name: Cloudflare workers deployment
+    if: "! contains(github.event.head_commit.message, '[CI Skip]')"
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: publish to cloudflare workers
+      uses: cloudflare/wrangler-action@1.3.0
+      with:
+        apiToken: ${{ secrets.CF_API_TOKEN }}
+      env:
+        CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+
+  dummy:
+    name: Dummy
+    if: "contains(github.event.head_commit.message, '[CI Skip]')"
+    runs-on: ubuntu-latest
+    steps:
+    - name: dummy
+      run: |
+        echo "Dummy skip step. We want the green check mark even when we don't deploy :)."
