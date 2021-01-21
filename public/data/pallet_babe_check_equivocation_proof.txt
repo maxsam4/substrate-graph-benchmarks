@@ -1,22 +1,22 @@
-Pallet: "pallet_babe", Extrinsic: "check_equivocation_proof", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_babe", Extrinsic: "check_equivocation_proof", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 x,extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-0,107229,1475,0,0,0,0
-0,106844,1369,0,0,0,0
-0,106688,1418,0,0,0,0
-0,106536,1369,0,0,0,0
-0,106461,1363,0,0,0,0
-1,106435,1394,0,0,0,0
-1,106203,1358,0,0,0,0
-1,106207,1423,0,0,0,0
-1,106190,1341,0,0,0,0
-1,106218,1357,0,0,0,0
+0,197800,3890,0,0,0,0
+0,177582,3328,0,0,0,0
+0,177435,3348,0,0,0,0
+0,176697,3296,0,0,0,0
+0,187219,3004,0,0,0,0
+1,160883,3070,0,0,0,0
+1,173413,3109,0,0,0,0
+1,161353,2983,0,0,0,0
+1,161210,2941,0,0,0,0
+1,183643,3234,0,0,0,0
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    106.6
+Time ~=    177.5
     + x        0
               µs
 
@@ -28,15 +28,15 @@ Min Squares Analysis
 
 Data points distribution:
     x   mean µs  sigma µs       %
-    0     106.6     0.125    0.1%
-    1     106.2     0.006    0.0%
+    0     180.7     4.577    2.5%
+    1     165.3     5.719    3.4%
 
 Quality and confidence:
 param     error
-x         0.089
+x          5.18
 
 Model:
-Time ~=    106.6
+Time ~=    180.7
     + x        0
               µs
 

@@ -1,17 +1,17 @@
-Pallet: "pallet_asset", Extrinsic: "make_divisible", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_asset", Extrinsic: "make_divisible", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-39476,2088,7,9,1,2
-39472,2033,7,9,1,2
-39191,2023,7,9,1,2
-39273,2130,7,9,1,2
-39690,2102,7,9,1,2
+121478,4617,7,9,1,2
+132758,4838,7,9,1,2
+146326,4640,7,9,1,2
+120923,4464,7,9,1,2
+135575,4766,7,9,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    39.47
+Time ~=    132.7
               µs
 
 Reads = 7
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    39.47
+Time ~=    132.7
               µs
 
 Reads = 7

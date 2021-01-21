@@ -1,17 +1,17 @@
-Pallet: "pallet_pips", Extrinsic: "set_pending_pip_expiry", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_pips", Extrinsic: "set_pending_pip_expiry", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-12661,1640,1,4,1,2
-12391,1629,1,4,1,2
-12322,1563,1,4,1,2
-12251,1535,1,4,1,2
-12316,1462,1,4,1,2
+37185,3685,1,4,1,2
+37019,3507,1,4,1,2
+36490,3483,1,4,1,2
+36785,3396,1,4,1,2
+36768,3490,1,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    12.32
+Time ~=    36.78
               µs
 
 Reads = 1
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    12.32
+Time ~=    36.78
               µs
 
 Reads = 1

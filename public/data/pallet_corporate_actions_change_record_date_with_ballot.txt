@@ -1,17 +1,17 @@
-Pallet: "pallet_corporate_actions", Extrinsic: "change_record_date_with_ballot", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_corporate_actions", Extrinsic: "change_record_date_with_ballot", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-77015,2383,16,11,4,2
-77279,2251,16,11,4,2
-76963,2297,16,11,4,2
-75952,2285,16,11,4,2
-81073,2316,16,11,4,2
+241643,4887,16,11,4,2
+232638,4482,16,11,4,2
+247314,4968,16,11,4,2
+274315,5361,16,11,4,2
+226778,4762,16,11,4,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    77.01
+Time ~=    241.6
               µs
 
 Reads = 16
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    77.01
+Time ~=    241.6
               µs
 
 Reads = 16

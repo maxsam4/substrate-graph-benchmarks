@@ -1,17 +1,17 @@
-Pallet: "pallet_im_online", Extrinsic: "set_slashing_params", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_im_online", Extrinsic: "set_slashing_params", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-10695,1755,0,4,1,2
-10283,1629,0,4,1,2
-9963,1551,0,4,1,2
-9861,1532,0,4,1,2
-9910,1510,0,4,1,2
+33701,4146,0,4,1,2
+29737,3400,0,4,1,2
+34075,3774,0,4,1,2
+32278,3574,0,4,1,2
+31765,3644,0,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    9.963
+Time ~=    32.27
               µs
 
 Reads = 0
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    9.963
+Time ~=    32.27
               µs
 
 Reads = 0

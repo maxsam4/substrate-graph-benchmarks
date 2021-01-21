@@ -1,17 +1,17 @@
-Pallet: "pallet_corporate_actions", Extrinsic: "set_default_withholding_tax", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_corporate_actions", Extrinsic: "set_default_withholding_tax", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-43538,2190,9,8,1,2
-43498,2099,9,8,1,2
-43903,2110,9,8,1,2
-43940,2059,9,8,1,2
-43080,2045,9,8,1,2
+125747,4835,9,8,1,2
+136434,4918,9,8,1,2
+135537,4353,9,8,1,2
+135218,4396,9,8,1,2
+134585,4687,9,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    43.53
+Time ~=    135.2
               µs
 
 Reads = 9
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    43.53
+Time ~=    135.2
               µs
 
 Reads = 9

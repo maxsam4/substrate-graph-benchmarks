@@ -1,17 +1,17 @@
-Pallet: "pallet_corporate_actions", Extrinsic: "remove_ca_with_dist", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_corporate_actions", Extrinsic: "remove_ca_with_dist", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-65594,2352,12,10,4,2
-64759,2350,12,10,4,2
-65191,2211,12,10,4,2
-64442,2248,12,10,4,2
-64326,2297,12,10,4,2
+233360,4707,12,10,4,2
+211714,5255,12,10,4,2
+190720,4422,12,10,4,2
+197094,4560,12,10,4,2
+243694,4686,12,10,4,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    64.75
+Time ~=    211.7
               µs
 
 Reads = 12
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    64.75
+Time ~=    211.7
               µs
 
 Reads = 12

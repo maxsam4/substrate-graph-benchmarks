@@ -1,17 +1,17 @@
-Pallet: "pallet_balances", Extrinsic: "set_balance", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_balances", Extrinsic: "set_balance", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-35243,2206,5,6,2,3
-35911,2096,5,6,2,3
-35332,2044,5,6,2,3
-35284,2022,5,6,2,3
-35053,2067,5,6,2,3
+135836,4840,5,6,2,3
+105892,4341,5,6,2,3
+118372,4808,5,6,2,3
+105798,4300,5,6,2,3
+115936,4893,5,6,2,3
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    35.28
+Time ~=    115.9
               µs
 
 Reads = 5
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    35.28
+Time ~=    115.9
               µs
 
 Reads = 5

@@ -1,17 +1,17 @@
-Pallet: "pallet_committee", Extrinsic: "set_release_coordinator", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_committee", Extrinsic: "set_release_coordinator", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-133924,2959,1,4,1,2
-136370,3004,1,4,1,2
-136077,2874,1,4,1,2
-135949,2836,1,4,1,2
-134102,3250,1,4,1,2
+199771,7631,1,4,1,2
+202048,6954,1,4,1,2
+202075,18688,1,4,1,2
+201654,6897,1,4,1,2
+205699,6373,1,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    135.9
+Time ~=      202
               µs
 
 Reads = 1
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    135.9
+Time ~=      202
               µs
 
 Reads = 1

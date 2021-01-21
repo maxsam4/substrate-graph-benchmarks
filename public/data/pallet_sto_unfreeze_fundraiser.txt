@@ -1,17 +1,17 @@
-Pallet: "pallet_sto", Extrinsic: "unfreeze_fundraiser", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_sto", Extrinsic: "unfreeze_fundraiser", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-52025,2149,8,8,1,2
-52265,2146,8,8,1,2
-51874,2087,8,8,1,2
-51635,2103,8,8,1,2
-51179,2168,8,8,1,2
+169545,5906,8,8,1,2
+161445,4654,8,8,1,2
+170664,6241,8,8,1,2
+166632,5732,8,8,1,2
+138617,5766,8,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    51.87
+Time ~=    166.6
               µs
 
 Reads = 8
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    51.87
+Time ~=    166.6
               µs
 
 Reads = 8

@@ -1,17 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "change_cdd_requirement_for_mk_rotation", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_identity", Extrinsic: "change_cdd_requirement_for_mk_rotation", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-10088,1659,0,4,1,2
-9791,1469,0,4,1,2
-9833,1521,0,4,1,2
-9750,1427,0,4,1,2
-9598,1434,0,4,1,2
+26940,3695,0,4,1,2
+26032,3263,0,4,1,2
+26224,3268,0,4,1,2
+25983,3259,0,4,1,2
+26117,3567,0,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    9.791
+Time ~=    26.11
               µs
 
 Reads = 0
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    9.791
+Time ~=    26.11
               µs
 
 Reads = 0

@@ -1,17 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "revoke_offchain_authorization", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_identity", Extrinsic: "revoke_offchain_authorization", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-32868,2153,6,9,1,2
-33032,2198,6,9,1,2
-32914,2063,6,9,1,2
-32771,2103,6,9,1,2
-32699,2100,6,9,1,2
+111510,4970,6,9,1,2
+125151,4506,6,9,1,2
+118301,4265,6,9,1,2
+101356,4225,6,9,1,2
+111695,5156,6,9,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    32.86
+Time ~=    111.6
               µs
 
 Reads = 6
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    32.86
+Time ~=    111.6
               µs
 
 Reads = 6

@@ -1,17 +1,17 @@
-Pallet: "pallet_committee", Extrinsic: "set_expires_after", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_committee", Extrinsic: "set_expires_after", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-10456,1807,0,4,1,2
-10093,1616,0,4,1,2
-10467,1607,0,4,1,2
-10111,1557,0,4,1,2
-9725,1643,0,4,1,2
+32576,4791,0,4,1,2
+31101,3460,0,4,1,2
+30934,3454,0,4,1,2
+30871,3414,0,4,1,2
+30654,3475,0,4,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    10.11
+Time ~=    30.93
               µs
 
 Reads = 0
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    10.11
+Time ~=    30.93
               µs
 
 Reads = 0

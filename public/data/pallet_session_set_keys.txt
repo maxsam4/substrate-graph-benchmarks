@@ -1,17 +1,17 @@
-Pallet: "pallet_session", Extrinsic: "set_keys", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_session", Extrinsic: "set_keys", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-55368,2395,6,1,5,1
-55467,2247,6,1,5,1
-57302,2257,6,1,5,1
-55496,2279,6,1,5,1
-55255,2256,6,1,5,1
+154923,7925,6,1,5,1
+174221,6582,6,1,5,1
+153769,6536,6,1,5,1
+142625,5503,6,1,5,1
+154660,6664,6,1,5,1
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    55.46
+Time ~=    154.6
               µs
 
 Reads = 6
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    55.46
+Time ~=    154.6
               µs
 
 Reads = 6

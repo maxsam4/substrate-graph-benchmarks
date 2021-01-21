@@ -1,17 +1,17 @@
-Pallet: "pallet_corporate_actions", Extrinsic: "reset_caa", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_corporate_actions", Extrinsic: "reset_caa", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-45400,2110,8,9,1,2
-44795,2082,8,9,1,2
-48832,2068,8,9,1,2
-44595,2067,8,9,1,2
-44730,2116,8,9,1,2
+151784,5672,8,9,1,2
+155217,5498,8,9,1,2
+158206,4859,8,9,1,2
+153578,5598,8,9,1,2
+152582,5192,8,9,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    44.79
+Time ~=    153.5
               µs
 
 Reads = 8
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    44.79
+Time ~=    153.5
               µs
 
 Reads = 8

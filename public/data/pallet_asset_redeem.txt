@@ -1,17 +1,17 @@
-Pallet: "pallet_asset", Extrinsic: "redeem", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_asset", Extrinsic: "redeem", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-75325,2169,16,13,6,2
-74329,2106,16,13,6,2
-89846,2148,16,13,6,2
-74121,2151,16,13,6,2
-73815,2124,16,13,6,2
+291540,5455,16,13,6,2
+255856,4176,16,13,6,2
+289971,4897,16,13,6,2
+304283,4995,16,13,6,2
+263549,4375,16,13,6,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    74.32
+Time ~=    289.9
               µs
 
 Reads = 16
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    74.32
+Time ~=    289.9
               µs
 
 Reads = 16

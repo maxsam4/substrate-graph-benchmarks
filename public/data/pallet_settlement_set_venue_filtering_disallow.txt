@@ -1,17 +1,17 @@
-Pallet: "pallet_settlement", Extrinsic: "set_venue_filtering_disallow", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+Pallet: "pallet_settlement", Extrinsic: "set_venue_filtering_disallow", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-37025,1972,7,8,1,2
-36309,1942,7,8,1,2
-36567,1949,7,8,1,2
-36213,1894,7,8,1,2
-37121,1843,7,8,1,2
+139789,4904,7,8,1,2
+108507,4379,7,8,1,2
+118529,4343,7,8,1,2
+130614,4659,7,8,1,2
+143037,4830,7,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    36.56
+Time ~=    130.6
               µs
 
 Reads = 7
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    36.56
+Time ~=    130.6
               µs
 
 Reads = 7
