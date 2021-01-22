@@ -1,4 +1,5 @@
-const baseTxCost = 585000; // Nanoseconds required to execute no op tx. This is set 10% lower to account for added len fee.
+const baseTxCost = 650000; // Nanoseconds required to execute no op tx.
+const baseMultiplier = 1.5; // Fixed cost, added to all tx to account for the base extrinsic weight and byte fee
 const readCost = 50000; // Nanoseconds required to read one storage slot
 const writeCost = 200000; // Nanoseconds required to write to one storage slot
 const basePolyCost = 0.03;
@@ -125,7 +126,7 @@ function createTable(data, components) {
     }
 
     for (row of data) {
-        row["cost_multiplier"] = 1 + (Number(row["extrinsic_time"]) + Number(row["reads"])*readCost + Number(row["writes"])*writeCost)/baseTxCost;
+        row["cost_multiplier"] = baseMultiplier + (Number(row["extrinsic_time"]) + Number(row["reads"])*readCost + Number(row["writes"])*writeCost)/baseTxCost;
         row["polyx_cost"] = Number(row["cost_multiplier"]) * basePolyCost;
         let tr2 = document.createElement('tr');
         for (key of keys) {
