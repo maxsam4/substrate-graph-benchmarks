@@ -1,17 +1,17 @@
-Pallet: "pallet_utility", Extrinsic: "relay_tx_transfer", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_utility", Extrinsic: "relay_tx_transfer", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-378597,4841,18,26,5,2
-418409,4907,18,26,5,2
-381428,4562,18,26,5,2
-384844,4875,18,26,5,2
-414503,5090,18,26,5,2
+405956,4567,18,26,5,2
+392108,4404,18,26,5,2
+427284,4478,18,26,5,2
+383053,4549,18,26,5,2
+428821,4265,18,26,5,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    384.8
+Time ~=    405.9
               µs
 
 Reads = 18
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    384.8
+Time ~=    405.9
               µs
 
 Reads = 18

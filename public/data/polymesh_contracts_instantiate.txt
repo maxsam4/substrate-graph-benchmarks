@@ -1,17 +1,17 @@
-Pallet: "polymesh_contracts", Extrinsic: "instantiate", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "polymesh_contracts", Extrinsic: "instantiate", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-1724685,6442,19,21,6,2
-1670431,5707,19,21,6,2
-1661897,5792,19,21,6,2
-1622580,5370,19,21,6,2
-1626282,5233,19,21,6,2
+1790724,7561,19,21,6,2
+1519547,5268,19,21,6,2
+1652579,5037,19,21,6,2
+1724633,5162,19,21,6,2
+1801399,4885,19,21,6,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=     1661
+Time ~=     1724
               µs
 
 Reads = 19
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=     1661
+Time ~=     1724
               µs
 
 Reads = 19

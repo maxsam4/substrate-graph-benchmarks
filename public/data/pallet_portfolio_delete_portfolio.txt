@@ -1,17 +1,17 @@
-Pallet: "pallet_portfolio", Extrinsic: "delete_portfolio", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_portfolio", Extrinsic: "delete_portfolio", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-124934,5426,8,8,1,2
-138037,4815,8,8,1,2
-125649,22958,8,8,1,2
-126398,4870,8,8,1,2
-125005,4533,8,8,1,2
+117945,4352,8,8,1,2
+129883,4304,8,8,1,2
+115630,4151,8,8,1,2
+140793,4051,8,8,1,2
+115589,4210,8,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    125.6
+Time ~=    117.9
               µs
 
 Reads = 8
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    125.6
+Time ~=    117.9
               µs
 
 Reads = 8

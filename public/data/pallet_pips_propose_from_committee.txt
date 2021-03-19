@@ -1,17 +1,17 @@
-Pallet: "pallet_pips", Extrinsic: "propose_from_committee", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_pips", Extrinsic: "propose_from_committee", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-197926,4923,7,5,5,2
-179537,4358,7,5,5,2
-198339,4776,7,5,5,2
-180584,4302,7,5,5,2
-197968,4910,7,5,5,2
+212668,4437,7,5,5,2
+243074,4206,7,5,5,2
+203751,4987,7,5,5,2
+202379,4731,7,5,5,2
+201683,4730,7,5,5,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    197.9
+Time ~=    203.7
               µs
 
 Reads = 7
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    197.9
+Time ~=    203.7
               µs
 
 Reads = 7

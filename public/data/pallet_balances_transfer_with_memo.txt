@@ -1,17 +1,17 @@
-Pallet: "pallet_balances", Extrinsic: "transfer_with_memo", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_balances", Extrinsic: "transfer_with_memo", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-168990,4456,11,11,2,2
-166284,4506,11,11,2,2
-226108,4579,11,11,2,2
-165024,4260,11,11,2,2
-188873,4905,11,11,2,2
+191374,4894,11,11,2,2
+217606,4646,11,11,2,2
+193980,5232,11,11,2,2
+191026,4996,11,11,2,2
+209077,5235,11,11,2,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    168.9
+Time ~=    193.9
               µs
 
 Reads = 11
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    168.9
+Time ~=    193.9
               µs
 
 Reads = 11

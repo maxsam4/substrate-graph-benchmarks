@@ -1,0 +1,28 @@
+Pallet: "pallet_staking", Extrinsic: "set_min_bond_threshold", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+37060,5001,0,4,1,2
+35716,4206,0,4,1,2
+35816,4290,0,4,1,2
+35292,4232,0,4,1,2
+31662,3706,0,4,1,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    35.71
+              µs
+
+Reads = 0
+Writes = 1
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    35.71
+              µs
+
+Reads = 0
+Writes = 1

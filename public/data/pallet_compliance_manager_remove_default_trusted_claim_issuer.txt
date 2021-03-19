@@ -1,17 +1,17 @@
-Pallet: "pallet_compliance_manager", Extrinsic: "remove_default_trusted_claim_issuer", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_compliance_manager", Extrinsic: "remove_default_trusted_claim_issuer", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-149073,5601,8,8,1,2
-137782,4489,8,8,1,2
-149410,5603,8,8,1,2
-125483,4648,8,8,1,2
-136974,5084,8,8,1,2
+144266,5114,8,8,1,2
+141369,5144,8,8,1,2
+119254,4215,8,8,1,2
+124046,5204,8,8,1,2
+123607,4417,8,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    137.7
+Time ~=      124
               µs
 
 Reads = 8
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    137.7
+Time ~=      124
               µs
 
 Reads = 8

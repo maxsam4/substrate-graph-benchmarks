@@ -1,17 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "forwarded_call", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_identity", Extrinsic: "forwarded_call", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-198444,5256,14,9,3,2
-193571,4680,14,9,3,2
-178217,4298,14,9,3,2
-194368,4847,14,9,3,2
-178337,4325,14,9,3,2
+241984,5346,14,9,3,2
+206075,4957,14,9,3,2
+207616,4794,14,9,3,2
+229348,5435,14,9,3,2
+206175,4873,14,9,3,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    193.5
+Time ~=    207.6
               µs
 
 Reads = 14
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    193.5
+Time ~=    207.6
               µs
 
 Reads = 14

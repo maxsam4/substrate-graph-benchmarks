@@ -1,0 +1,28 @@
+Pallet: "pallet_checkpoint", Extrinsic: "set_schedules_max_complexity", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+31921,4568,0,4,1,2
+31399,3882,0,4,1,2
+31163,3779,0,4,1,2
+30852,3729,0,4,1,2
+31137,3768,0,4,1,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    31.16
+              µs
+
+Reads = 0
+Writes = 1
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    31.16
+              µs
+
+Reads = 0
+Writes = 1

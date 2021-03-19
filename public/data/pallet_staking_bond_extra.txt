@@ -1,0 +1,28 @@
+Pallet: "pallet_staking", Extrinsic: "bond_extra", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+131207,5138,6,6,3,2
+130002,5162,6,6,3,2
+129173,4641,6,6,3,2
+127955,4997,6,6,3,2
+129613,5037,6,6,3,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    129.6
+              µs
+
+Reads = 6
+Writes = 3
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    129.6
+              µs
+
+Reads = 6
+Writes = 3

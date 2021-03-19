@@ -1,17 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "leave_identity_as_key", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_identity", Extrinsic: "leave_identity_as_key", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-151650,5000,7,13,2,2
-234741,5823,7,13,2,2
-139768,4556,7,13,2,2
-152329,4861,7,13,2,2
-150938,4829,7,13,2,2
+163285,4863,7,13,2,2
+276539,5637,7,13,2,2
+162813,4708,7,13,2,2
+163260,5201,7,13,2,2
+179321,5184,7,13,2,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    151.6
+Time ~=    163.2
               µs
 
 Reads = 7
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    151.6
+Time ~=    163.2
               µs
 
 Reads = 7

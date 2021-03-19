@@ -1,17 +1,17 @@
-Pallet: "pallet_asset", Extrinsic: "unfreeze", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_asset", Extrinsic: "unfreeze", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-160681,4907,8,9,1,2
-158117,4964,8,9,1,2
-134982,4905,8,9,1,2
-136133,4761,8,9,1,2
-123287,4242,8,9,1,2
+143925,5083,8,9,1,2
+124938,4406,8,9,1,2
+125413,4370,8,9,1,2
+124559,4249,8,9,1,2
+124198,4236,8,9,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    136.1
+Time ~=    124.9
               µs
 
 Reads = 8
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    136.1
+Time ~=    124.9
               µs
 
 Reads = 8

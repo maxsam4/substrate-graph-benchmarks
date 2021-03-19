@@ -1,0 +1,28 @@
+Pallet: "pallet_test_utils", Extrinsic: "get_my_did", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+92663,4690,6,8,0,2
+118404,5395,6,8,0,2
+93326,4241,6,8,0,2
+128507,4711,6,8,0,2
+91744,4034,6,8,0,2
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    93.32
+              µs
+
+Reads = 6
+Writes = 0
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    93.32
+              µs
+
+Reads = 6
+Writes = 0

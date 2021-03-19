@@ -1,17 +1,17 @@
-Pallet: "pallet_identity", Extrinsic: "freeze_secondary_keys", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_identity", Extrinsic: "freeze_secondary_keys", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-120859,4825,6,14,1,2
-131554,4655,6,14,1,2
-132072,4770,6,14,1,2
-131948,4598,6,14,1,2
-146114,5304,6,14,1,2
+178623,5266,6,14,1,2
+142889,4748,6,14,1,2
+160680,5168,6,14,1,2
+155653,4661,6,14,1,2
+143802,4708,6,14,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    131.9
+Time ~=    155.6
               µs
 
 Reads = 6
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    131.9
+Time ~=    155.6
               µs
 
 Reads = 6

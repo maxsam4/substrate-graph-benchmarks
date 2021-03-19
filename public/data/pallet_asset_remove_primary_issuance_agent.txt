@@ -1,17 +1,17 @@
-Pallet: "pallet_asset", Extrinsic: "remove_primary_issuance_agent", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_asset", Extrinsic: "remove_primary_issuance_agent", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-126381,4394,7,9,1,2
-128959,4722,7,9,1,2
-116081,4339,7,9,1,2
-147845,4620,7,9,1,2
-117012,4250,7,9,1,2
+165918,5870,7,9,1,2
+116609,4198,7,9,1,2
+151351,4885,7,9,1,2
+135788,4817,7,9,1,2
+135451,4876,7,9,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    126.3
+Time ~=    135.7
               µs
 
 Reads = 7
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    126.3
+Time ~=    135.7
               µs
 
 Reads = 7

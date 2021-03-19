@@ -1,17 +1,17 @@
-Pallet: "pallet_sto", Extrinsic: "modify_fundraiser_window", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_sto", Extrinsic: "modify_fundraiser_window", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-135027,5471,9,4,1,0
-123357,5534,9,4,1,0
-135649,5680,9,4,1,0
-122498,5136,9,4,1,0
-135857,5877,9,4,1,0
+182114,5510,9,8,1,2
+162373,5069,9,8,1,2
+169433,5126,9,8,1,2
+138438,4371,9,8,1,2
+162407,4456,9,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=      135
+Time ~=    162.4
               µs
 
 Reads = 9
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=      135
+Time ~=    162.4
               µs
 
 Reads = 9

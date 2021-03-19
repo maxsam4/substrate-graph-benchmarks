@@ -1,0 +1,28 @@
+Pallet: "pallet_staking", Extrinsic: "update_permissioned_validator_intended_count", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
+extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
+51757,6893,2,0,1,0
+32029,5491,2,0,1,0
+32536,5622,2,0,1,0
+33829,5620,2,0,1,0
+30767,4990,2,0,1,0
+
+Median Slopes Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    32.53
+              µs
+
+Reads = 2
+Writes = 1
+Min Squares Analysis
+========
+-- Extrinsic Time --
+
+Model:
+Time ~=    32.53
+              µs
+
+Reads = 2
+Writes = 1

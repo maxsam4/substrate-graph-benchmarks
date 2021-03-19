@@ -1,17 +1,17 @@
-Pallet: "pallet_asset", Extrinsic: "reserve_classic_ticker", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_asset", Extrinsic: "reserve_classic_ticker", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-82277,4738,3,5,3,2
-91914,4939,3,5,3,2
-81754,4359,3,5,3,2
-98171,4536,3,5,3,2
-102844,4875,3,5,3,2
+103566,5086,3,5,3,2
+103494,5363,3,5,3,2
+80676,4342,3,5,3,2
+103041,5438,3,5,3,2
+97072,5202,3,5,3,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    91.91
+Time ~=      103
               µs
 
 Reads = 3
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    91.91
+Time ~=      103
               µs
 
 Reads = 3

@@ -1,17 +1,17 @@
-Pallet: "pallet_settlement", Extrinsic: "claim_receipt", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_settlement", Extrinsic: "claim_receipt", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-290864,4998,13,10,3,2
-301759,5232,13,10,3,2
-274608,4656,13,10,3,2
-298917,5011,13,10,3,2
-272625,4423,13,10,3,2
+266630,4592,13,10,3,2
+265164,4386,13,10,3,2
+262322,4519,13,10,3,2
+271217,13638,13,10,3,2
+263429,5002,13,10,3,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    290.8
+Time ~=    265.1
               µs
 
 Reads = 13
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    290.8
+Time ~=    265.1
               µs
 
 Reads = 13

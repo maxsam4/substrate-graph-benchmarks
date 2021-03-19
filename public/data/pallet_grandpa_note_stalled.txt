@@ -1,17 +1,17 @@
-Pallet: "pallet_grandpa", Extrinsic: "note_stalled", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_grandpa", Extrinsic: "note_stalled", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-4716,3173,0,0,1,0
-4609,2910,0,0,1,0
-4578,2928,0,0,1,0
-4546,2963,0,0,1,0
-4910,3488,0,0,1,0
+6098,3931,0,0,1,0
+5949,3766,0,0,1,0
+5855,3718,0,0,1,0
+5750,3716,0,0,1,0
+5671,3683,0,0,1,0
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    4.609
+Time ~=    5.855
               µs
 
 Reads = 0
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    4.609
+Time ~=    5.855
               µs
 
 Reads = 0

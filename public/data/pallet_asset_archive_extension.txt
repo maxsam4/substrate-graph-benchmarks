@@ -1,17 +1,17 @@
-Pallet: "pallet_asset", Extrinsic: "archive_extension", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_asset", Extrinsic: "archive_extension", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-134979,4453,8,10,1,2
-130329,4182,8,10,1,2
-131808,4370,8,10,1,2
-137084,4571,8,10,1,2
-134570,4280,8,10,1,2
+134180,4592,8,10,1,2
+156060,4877,8,10,1,2
+175360,5289,8,10,1,2
+155844,5023,8,10,1,2
+154565,4670,8,10,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    134.5
+Time ~=    155.8
               µs
 
 Reads = 8
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    134.5
+Time ~=    155.8
               µs
 
 Reads = 8

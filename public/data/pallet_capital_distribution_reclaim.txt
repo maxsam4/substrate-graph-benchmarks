@@ -1,17 +1,17 @@
-Pallet: "pallet_capital_distribution", Extrinsic: "reclaim", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_capital_distribution", Extrinsic: "reclaim", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-145212,5375,9,8,2,2
-156690,5158,9,8,2,2
-155556,5099,9,8,2,2
-154471,4837,9,8,2,2
-155975,4987,9,8,2,2
+169703,6874,9,8,2,2
+144579,4642,9,8,2,2
+141553,26807,9,8,2,2
+141272,4427,9,8,2,2
+165169,4403,9,8,2,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    155.5
+Time ~=    144.5
               µs
 
 Reads = 9
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    155.5
+Time ~=    144.5
               µs
 
 Reads = 9

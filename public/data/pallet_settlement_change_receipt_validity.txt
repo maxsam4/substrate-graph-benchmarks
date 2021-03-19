@@ -1,17 +1,17 @@
-Pallet: "pallet_confidential", Extrinsic: "add_range_proof", Lowest values: [], Highest values: [], Steps: [50], Repeat: 5
+Pallet: "pallet_settlement", Extrinsic: "change_receipt_validity", Lowest values: [], Highest values: [], Steps: [100], Repeat: 5
 extrinsic_time,storage_root_time,reads,repeat_reads,writes,repeat_writes
-80787504,7652,6,4,1,0
-85414652,9349,6,4,1,0
-82811313,8143,6,4,1,0
-85051475,7472,6,4,1,0
-86530967,8192,6,4,1,0
+103035,4682,6,8,1,2
+98829,4364,6,8,1,2
+114394,4723,6,8,1,2
+98170,3964,6,8,1,2
+113993,4634,6,8,1,2
 
 Median Slopes Analysis
 ========
 -- Extrinsic Time --
 
 Model:
-Time ~=    85050
+Time ~=      103
               µs
 
 Reads = 6
@@ -21,7 +21,7 @@ Min Squares Analysis
 -- Extrinsic Time --
 
 Model:
-Time ~=    85050
+Time ~=      103
               µs
 
 Reads = 6
